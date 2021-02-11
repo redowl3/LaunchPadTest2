@@ -115,18 +115,6 @@ namespace LaunchPad.Mobile.ViewModels
                         await DatabaseServices.InsertData<List<FormResponse>>("SurveyResponse", dbSurveyResponse);
                     });
                     PostSurveyResponseAsync();
-                   
-                    //Task.Run(() =>
-                    //{
-                    //    App.ConcernsAndSkinCareSurveyViewModel = new ConcernsAndSkinCareSurveyViewModel();
-                    //    App.HealthQuestionsSurveyViewModel = new HealthQuestionsSurveyViewModel();
-                    //    App.LifestylesSurveyViewModel = new LifestylesSurveyViewModel();
-
-                    //    Device.BeginInvokeOnMainThread(() =>
-                    //    {
-                    //        Application.Current.MainPage = new AnimationNavigationPage(new SalonProductsPage());
-                    //    });
-                    //});
                 }
             }
             catch (Exception)
@@ -173,9 +161,9 @@ namespace LaunchPad.Mobile.ViewModels
                     }
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
+                Console.WriteLine(ex.Message);
             }
         }
 

@@ -15,3 +15,8 @@
 *.cache
 LaunchPad.Mobile/LaunchPad.Mobile.iOS/obj/iPhone/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 *.cache
+LaunchPad.Mobile/LaunchPad.Mobile.iOS/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttributes.cs
+LaunchPad.Mobile/LaunchPad.Mobile.iOS/obj/LaunchPad.Mobile.iOS.csproj.nuget.dgspec.json
+LaunchPad.Mobile/LaunchPad.Mobile.iOS/obj/LaunchPad.Mobile.iOS.csproj.nuget.g.props
+LaunchPad.Mobile/LaunchPad.Mobile.iOS/obj/LaunchPad.Mobile.iOS.csproj.nuget.g.targets
+LaunchPad.Mobile/LaunchPad.Mobile.iOS/obj/project.assets.json
